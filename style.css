@@ -1,0 +1,11 @@
+.navig{
+    /* Frame 1171277696 */
+    width: 218px;
+    height: 19px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+}
