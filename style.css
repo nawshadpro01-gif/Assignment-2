@@ -8,73 +8,33 @@
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-
 }
-.header{
+
+.header {
     width: 1600px;
-    height: 207px;
     background-color: #1A0B2E;
-    display: flex;
-    gap: 314px;
-    justify-content: center;
-    flex-wrap: wrap;
-    
+
 }
 
 
-.navdiv {
-    /* max-width: 1200px; */
+nav {
+    max-width: 1200px;
+    height: 207px;
+    padding: 0 auto;
     margin: 0px auto;
-    /* padding: 16px 200px; */
     display: flex;
-    gap: 314px;
-    align-items:center;
     justify-content: space-between;
+    align-items: center;
+}
 
+nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
     
 }
-
-.techwavelogo {
-    font-size: 28px;
-    font-weight: bold;
-    color: white;
-}
-.techwavelogo span {
-    color: #ff2ec4
-}
-
-
-.againflex {
-    width: 218px;
-    height: 19px;
-    /* cursor: pointer; */
+nav .menu a {
     font-size: 16px;
     color: white;
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    font-weight: 500;
-}
-.subscribe {
-    width: 135px;
-    height: 44px;
-
-    padding: 12px 16px;
-    border: none;
-    border-radius: 25px;
-    /* cursor: pointer; */
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-
-    background: linear-gradient(5deg, #ffb703, #ff2ec4);
-
-    
-}
-
-
-
-
-.hero {
-
+    text-decoration: none;
 }
