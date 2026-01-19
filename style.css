@@ -38,3 +38,122 @@ nav .menu a {
     color: white;
     text-decoration: none;
 }
+
+
+
+#banner {
+    position: relative;
+    width: 1600px;
+    border-top: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-image {
+    position: relative;
+    width: 1600px;
+}
+.background {
+
+  position: relative;
+  width: 100%; 
+  height: auto;
+}
+.over {
+
+  position: absolute;
+
+  top: 101px;
+  left: 625px;
+  z-index: 5; 
+}
+
+.top {
+    position: absolute;
+    top: 190px;
+    right: 740px;
+    z-index: 15;
+}
+.banner-content {
+
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    top: 491px;
+    left: 525px;
+    right: 525px;
+    bottom: 101px;
+
+
+}
+section div h1 {
+    color: white;
+    font-size: 60px;
+    padding: 0px;
+}
+section div p {
+    color: white;
+    font-size: 16px;
+      
+}
+
+
+.but {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.spotify {
+    width: 201px;
+    height: 44px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.subscribe {
+    width: 147px;
+    height: 44px;
+    border-radius: 25px;
+    background-color:#1A0B2E;
+    /* box-sizing: border-box; */
+    border-color: #00FF88;
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.popup {
+    position: absolute;
+    color: black;
+    width: 75px;
+    height: 38px;
+    background-color: #00FF88;
+    align-items: center;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 121px;
+    left: 893px;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 25;
+}
