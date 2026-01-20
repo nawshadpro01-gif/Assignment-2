@@ -4,6 +4,15 @@
     box-sizing: border-box;
 
 }
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #1A0B2E; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .font-inter {
   font-family: "Inter", sans-serif;
@@ -11,6 +20,7 @@
 }
 
 .header {
+    width: 100%;
     width: 1600px;
     background-color: #1A0B2E;
 
@@ -43,6 +53,7 @@ nav .menu a {
 
 #banner {
     position: relative;
+    width: 100%;
     width: 1600px;
     border-top: 2px solid purple;
     display: flex;
@@ -59,6 +70,9 @@ nav .menu a {
   position: relative;
   width: 100%; 
   height: auto;
+  display: block;
+  /* this removed the white line in the of 2 section */
+  /* Why: Images are inline by default, causing extra spacing below. display: block removes this gap. */
 }
 .over {
 
@@ -130,6 +144,7 @@ section div p {
     height: 44px;
     border-radius: 25px;
     background-color:#1A0B2E;
+    border: 2px solid #00FF88;
     /* box-sizing: border-box; */
     border-color: #00FF88;
     color: #00FF88;
@@ -156,4 +171,211 @@ section div p {
     font-size: 18px;
     font-weight: 600;
     z-index: 25;
+}
+
+#about {
+    padding-top: 50px;
+    position: relative;
+    width: 1600px;
+    height: 646px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A0B2E;
+}
+#about hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 40px 0;
+}
+
+#about .about-container {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50pz 200px 374px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#about .about-container .about-heading{
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about .about-container .about-info .info-card h1 {
+    color: #00FF88;
+}
+#about .about-container .about-info .info-card p {
+    color: #00FF88;
+}
+
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#host {
+    width: 100%;
+    width: 1600px;
+    height: 1276px;
+    /* padding-top: 120px; */
+    padding: 120px 200px 120px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #1A0B2E;
+    gap: 50px;
+}
+#host .epbox {
+    width: 1200px;
+    height: 538px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+
+
+
+#host .epcontainer .section-head h2 {
+    color: white;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    /* max-width: 1200; */
+    text-align: center;
+}
+
+#host .epbox .video h2 {
+    color: white;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#host .host-head .section-head h2 {
+        color: white;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    /* max-width: 1200; */
+    text-align: center;
+
+}
+#host .epbox .video .pad24 {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 12px;
+}
+#host .epbox .video {
+    background-color:#250D44 ;
+    width: 380px;
+    height: 440px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#host .epbox .video .pad24 .green {
+    color: #00FF88;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6px;
+}
+
+#host .epbox .video .pad24 p {
+    color: #A69EB3;
+}
+
+#host .host-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    padding: 48.5px 40px;
+    background-color: #250D44;
+    border-radius: 25px;
+}
+#host .host-info .host-details h3 {
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: white;
+}
+#host .host-info .host-details p {
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #A69EB3 ;
+}
+#host .host-info .host-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+#host .host-info .host-details .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+#host .host-info .host-details .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    
+}
+#host .host-info .host-details .logo .social {
+
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    padding: 15px;
+    
+}
+#host .nav-gap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
