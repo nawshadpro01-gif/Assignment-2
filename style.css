@@ -132,7 +132,7 @@ section div p {
     cursor: pointer;
     height: 44px;
     border-radius: 25px;
-    background-color: red;
+    /* background-color: red; */
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -380,9 +380,14 @@ hr {
 
     border: 1px solid #533C72;
     border-radius: 50%;
-    padding: 15px;
-    
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+    object-fit: scale-down;
+    box-sizing: border-box;
 }
+    
+
 #host .nav-gap {
     display: flex;
     flex-direction: column;
@@ -543,11 +548,6 @@ hr {
 
 
 
-/* ========================= */
-/* RESPONSIVE BREAKPOINTS */
-/* ========================= */
-
-/* Medium Devices: 576px to 992px */
 @media (max-width: 992px) {
     nav {
         height: auto;
@@ -626,7 +626,12 @@ hr {
     }
 }
 
-/* Small Devices: up to 576px */
+
+
+
+
+
+
 @media (max-width: 576px) {
     nav {
         padding: 15px;
@@ -652,6 +657,13 @@ hr {
         height: auto;
     }
 
+
+
+
+
+
+
+
     .banner-content {
         top: 50%;
         left: 5%;
@@ -673,11 +685,18 @@ hr {
         gap: 10px;
     }
 
+
+
+
+
     .spotify,
     .subscribe {
         width: 180px;
         font-size: 14px;
     }
+
+
+
 
     .popup {
         top: 80px;
@@ -686,16 +705,17 @@ hr {
         font-size: 14px;
     }
 
+
+
+
     #about {
         padding-top: 30px;
     }
-
     #about .about-container {
         width: 90%;
         padding: 30px 15px;
         gap: 30px;
     }
-
     #about .about-container .about-heading {
         font-size: 28px;
     }
@@ -703,19 +723,22 @@ hr {
     #about .about-container .about-text p {
         font-size: 14px;
     }
-
     #about .about-container .about-info {
         flex-direction: column;
         gap: 25px;
     }
-
     #about .about-container .about-info .info-card h1 {
         font-size: 32px;
     }
-
     #about .about-container .about-info .info-card p {
         font-size: 12px;
     }
+
+
+
+
+
+
 
     #why-choose {
         padding: 60px 20px;
@@ -745,11 +768,14 @@ hr {
         font-size: 14px;
     }
 
+
+
+
+
     #host {
         padding: 60px 20px;
         gap: 50px;
     }
-
     #host .epcontainer .section-head h2,
     #host .host-head .section-head h2 {
         font-size: 28px;
@@ -773,6 +799,7 @@ hr {
     #host .epbox .video h2 {
         font-size: 20px;
     }
+
 
     #host .epbox .video .pad24 {
         padding: 20px;
@@ -805,6 +832,19 @@ hr {
     #host .host-info .host-details .logo {
         justify-content: center;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     #footer .img {
         height: auto;
