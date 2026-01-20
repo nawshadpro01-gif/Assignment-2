@@ -251,7 +251,7 @@ hr {
     flex-direction: column;
     justify-content: start;
     background-color: #1A0B2E;
-    gap: 50px;
+    gap: 80px;
 }
 #host .epbox {
     width: 1200px;
@@ -305,7 +305,7 @@ hr {
     background-color:#250D44 ;
     width: 380px;
     height: 440px;
-    border-radius: 15px;
+    border-radius: 25px;
     overflow: hidden;
 }
 
@@ -329,7 +329,7 @@ hr {
     gap: 24px;
     padding: 48.5px 40px;
     background-color: #250D44;
-    border-radius: 25px;
+    border-radius: 35px;
 }
 #host .host-info .host-details h3 {
     font-style: Bold;
